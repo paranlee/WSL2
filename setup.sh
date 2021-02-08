@@ -1,5 +1,5 @@
 sudo apt update -y && sudo apt upgrade -y
-sudo apt install -y curl wget git vim ca-certificates apt-transport-https
+sudo apt install -y curl wget git vim exuberant-ctags ca-certificates apt-transport-https
 sudo apt install -y gnupg2 slirp4netns crun uidmap varlink fuse-overlayfs
 
 VERSION_ID=$(cat /etc/debian_version | awk -F '.' '{print $1}')
@@ -29,6 +29,8 @@ curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube_latest
 sudo dpkg -i minikube_latest_amd64.deb
 
 git clone https://github.com/paranlee/hello-node.git
+
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 git clone https://github.com/paranlee/vimrc.git
 cp ~/vimrc/.vimrc ~
 
