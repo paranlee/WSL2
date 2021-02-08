@@ -29,6 +29,8 @@ git clone https://github.com/paranlee/vimrc.git
 cp ~/vimrc/.vimrc ~
 
 git clone https://github.com/paranlee/podman-conf.git
+mkdir ~/.config
+mkdir ~/.config/containers/
 cp ~/podman-conf/*.conf ~/.config/containers/
 
 git clone https://github.com/mit-pdos/xv6-riscv
