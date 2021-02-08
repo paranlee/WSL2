@@ -1,5 +1,5 @@
 sudo apt update -y && sudo apt upgrade -y
-sudo apt install -y curl wget git vim ca-certificates
+sudo apt install -y curl wget git vim exuberant-ctags ca-certificates
 sudo apt install -y gnupg2 slirp4netns crun uidmap varlink fuse-overlayfs
 sudo sh -c "echo 'deb https://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable/Debian${VERSION_ID}/ /' > /etc/apt/sources.list.d/devel:kubic:libcontainers:stable.list"
 curl -L https://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable/Debian_${VERSION_ID}/Release.key | sudo apt-key add -
@@ -24,7 +24,7 @@ sudo apt-get update -y && sudo apt-get install -y helm
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube_latest_amd64.deb
 sudo dpkg -i minikube_latest_amd64.deb
 
-git clone https://github.com/paranlee/hello-node.git
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 git clone https://github.com/paranlee/vimrc.git
 cp ~/vimrc/.vimrc ~
 
@@ -32,6 +32,8 @@ git clone https://github.com/paranlee/podman-conf.git
 mkdir ~/.config
 mkdir ~/.config/containers/
 cp ~/podman-conf/*.conf ~/.config/containers/
+
+git clone https://github.com/paranlee/hello-node.git
 
 git clone https://github.com/mit-pdos/xv6-riscv
 sudo apt install -y git build-essential gdb-multiarch qemu-system-misc gcc-riscv64-linux-gnu binutils-riscv64-linux-gnu
