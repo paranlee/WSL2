@@ -40,4 +40,4 @@ git clone https://github.com/paranlee/podman-conf.git
 cp ~/podman-conf/*.conf ~/.config/containers/
 
 git clone https://github.com/mit-pdos/xv6-riscv
-sudo apt install -y git build-essential gdb-multiarch qemu-system-misc gcc-riscv64-linux-gnu binutils-riscv64-linux-gnu
+sudo apt install -y build-essential gdb-multiarch qemu-system-misc gcc-riscv64-linux-gnu binutils-riscv64-linux-gnu
