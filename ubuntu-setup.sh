@@ -1,5 +1,5 @@
 sudo apt update -y && sudo apt upgrade -y
-sudo apt install -y curl wget git vim exuberant-ctags ca-certificates apt-transport-https
+sudo apt install -y curl wget git vim tmux exuberant-ctags ca-certificates apt-transport-https
 sudo apt install -y gnupg2 slirp4netns crun uidmap varlink fuse-overlayfs
 
 # ubuntu 20.04
