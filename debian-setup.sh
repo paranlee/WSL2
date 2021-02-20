@@ -13,7 +13,7 @@ sudo dpkg -i libseccomp2_2.5.1-1_amd64.deb
 
 sudo apt install -y podman
 
-mkdir /run/user/1000
+sudo mkdir /run/user/1000
 sudo chmod -R 777 /run/user/1000/
 
 curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
