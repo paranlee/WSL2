@@ -34,5 +34,4 @@ git clone https://github.com/paranlee/podman-conf.git
 cp ~/podman-conf/*.conf ~/.config/containers/
 
 sudo apt install -y podman
-sudo mkdir /run/user/1000
-sudo chmod -R 777 /run/user/1000
+sudo mkdir -m 777 /run/user/1000
