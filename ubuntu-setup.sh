@@ -24,6 +24,7 @@ curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube_latest
 sudo dpkg -i minikube_latest_amd64.deb
 
 git clone https://github.com/paranlee/hello-node.git
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 git clone https://github.com/paranlee/vimrc.git
 cp ~/vimrc/.vimrc ~
 
