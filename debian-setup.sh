@@ -1,5 +1,5 @@
 sudo apt update -y && sudo apt upgrade -y
-sudo apt install -y curl wget git vim tmux exuberant-ctags ca-certificates apt-transport-https
+sudo apt install -y curl wget git vim tmux universal-ctags ca-certificates apt-transport-https
 sudo apt install -y gnupg2 slirp4netns crun uidmap varlink fuse-overlayfs
 
 VERSION_ID=$(cat /etc/debian_version | awk -F '.' '{print $1}')
